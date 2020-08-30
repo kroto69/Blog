@@ -1,4 +1,4 @@
-baseURL = "localhots"
+baseURL = "https://kroto.netlify.app/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
