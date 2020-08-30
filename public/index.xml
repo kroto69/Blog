@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>KEroot</title>
+        <link>localhots/</link>
+        <description>KEroot</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 29 Aug 2020 20:58:24 &#43;0700</lastBuildDate>
+            <atom:link href="localhots/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Mencari file materi untuk belajar </title>
+    <link>localhots/posts/otodidak/</link>
+    <pubDate>Sat, 29 Aug 2020 20:58:24 &#43;0700</pubDate>
+    <author>Author</author>
+    <guid>localhots/posts/otodidak/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/localhots/ha.png" referrerpolicy="no-referrer">
+            </div><p>Hallo bos, Udah pada ngopi belum ???</p>
+<p>Ngomong ngmonong soal <strong>belajar</strong> , dimasa pandemi ini kita diharuskan untuk bisa belajar mandiri/ <strong>otodidak</strong>.  Tapi terkadang kita kesulitan untuk mendcari materi yang ingin dipelajari.</p>]]></description>
+</item></channel>
+</rss>
