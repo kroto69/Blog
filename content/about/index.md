@@ -10,4 +10,6 @@ featuredImage: "as.png"
 
  **Hello Bos** , im Khoirot biasa dipanggil **KEROT** 
 
-Aku mung wong biasa yang suka mempelajari hal baru yang berhubungan dengan IT.  
+Hanya orang biasa yang suka mempelajari hal baru yang berhubungan dengan IT.   
+
+Blog ini adalah media saya untuk belajar berbagi ilmu dan pengetahuan kepada teman teman semua.
