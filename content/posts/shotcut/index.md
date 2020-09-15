@@ -1,12 +1,12 @@
 ---
-title: "Mengenal shotcut aplikasi editing video yang free & Open Source"
+title: "Mengenal Shotcut - Free & Open source software video editing "
 date: 2020-08-30T23:42:33+07:00
 Author : "rot"
 featuredImage: "shot.jpg"
 lightgallery: true
 draft: false
 categories: ["FOSS"]
-tags : ["foss"]
+tags : ["foss", "Blog"]
 ---
 
 ### Perkenalan 
