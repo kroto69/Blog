@@ -1,7 +1,5 @@
 ---
 title: "Mengenal Shotcut - Free & Open source software video editing "
-permalinks:
-  posts = "/:year/:month/:title/"
 
 date: 2020-08-30T23:42:33+07:00
 Author : "rot"

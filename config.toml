@@ -173,9 +173,9 @@ enableEmoji = true
       # Disqus comment config
       [params.page.comment.disqus]
         # LoveIt NEW | 0.1.1
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
-        shortname = "asek"
+        shortname = "kroto"
 # Markup related configuration in Hugo
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)

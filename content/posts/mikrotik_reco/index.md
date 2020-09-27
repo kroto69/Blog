@@ -1,9 +1,8 @@
 ---
 title: "Recovey RouterOs yang lupa user dan password "
 date: 2020-09-06T01:42:55+07:00
-draft: true
 Author : "rot"
-featuredImage: "shot.jpg"
+featuredImage: "gambar3.png"
 lightgallery: true
 draft: true
 categories: ["Tips & Trick"]
