@@ -20,6 +20,8 @@ Langsung saja , kali ini saya akan membagikan Kumpulan beberapa default user dan
 ### ZTE
 
 Tested on : F660 , F609
+
+
 | Username| Password |
 |:------:| :-----------:|
  user  | user 
@@ -31,6 +33,8 @@ root | admin
 ### Huawei
 
 Tested on : HG5245H5 , HG8245H
+
+
 | Username | Password |
 |:------:| :-----------:|
 user | user
