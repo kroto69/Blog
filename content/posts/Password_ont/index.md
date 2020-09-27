@@ -13,17 +13,18 @@ Hallo bos, apa kabar? semoga baik saja,
 
 
 Langsung saja , kali ini saya akan membagikan Kumpulan beberapa default user dan password ONT yang saya ketahui dan coba sendiri
+<!---more--->
 
 ### ZTE
 
 Tested on : F660 , F609
 | Username| Password |
 |:------:| :-----------:|
-| user  | user |
-| user | user123 |
+ user  | user 
+ user | user123 
 root | admin
-| Admin   | admin |
-| admin    | Telkomdso123
+ Admin   | admin 
+ admin    | Telkomdso123
 
 ### Huawei
 
