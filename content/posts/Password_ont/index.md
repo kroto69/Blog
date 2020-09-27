@@ -13,6 +13,8 @@ Hallo bos, apa kabar? semoga baik saja,
 
 
 Langsung saja , kali ini saya akan membagikan Kumpulan beberapa default user dan password ONT yang saya ketahui dan coba sendiri
+
+
 <!---more--->
 
 ### ZTE
@@ -49,3 +51,8 @@ admin | admin1234
 
 
 admin    :     %0|F?H@f!berhO3e 
+
+
+Saya sudah mencobanya dan berhasil, silahkan teman temnan mencobanya satu persatu.jika ada yang perlu ditambahkan silahkan berkomentar.
+
+Terima kasih :), semoga bermanfaat.
