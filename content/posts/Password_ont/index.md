@@ -56,6 +56,13 @@ admin | admin1234
 
 admin    :     %0|F?H@f!berhO3e 
 
+### Dasan
+| Username | Password |
+|:------:| :-----------:|
+admin | vertex25
+admin | admin
+
+
 
 Saya sudah mencobanya dan berhasil, silahkan teman temnan mencobanya satu persatu.jika ada yang perlu ditambahkan silahkan berkomentar.
 
