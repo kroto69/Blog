@@ -5,7 +5,7 @@ date: 2020-10-22T23:42:33+07:00
 Author : "rot"
 featuredImage: "graff.png"
 lightgallery: true
-draft: false
+draft: true
 categories: ["FOSS"]
 tags : ["foss", "Blog"]
 ---

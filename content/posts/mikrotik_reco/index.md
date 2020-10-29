@@ -4,7 +4,7 @@ date: 2020-10-28T01:42:55+07:00
 Author : "rot"
 featuredImage: "gambar3.png"
 lightgallery: true
-draft: true
+draft: false
 categories: ["Tips & Trick"]
 tags : ["Tutorial", "Mikrotik"]
 ---
