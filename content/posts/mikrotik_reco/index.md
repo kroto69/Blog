@@ -1,6 +1,6 @@
 ---
-title: "Recovey RouterOs yang lupa user dan password "
-date: 2020-09-06T01:42:55+07:00
+title: "Recovery RouterOs yang lupa user dan password "
+date: 2020-10-28T01:42:55+07:00
 Author : "rot"
 featuredImage: "gambar3.png"
 lightgallery: true
@@ -10,30 +10,30 @@ tags : ["Tutorial", "Mikrotik"]
 ---
 
 
-**Hallo teman teman -** Apa kabar?Kali ini saya akan berbagi sedikit pengalaman saya tentang bagaimana cara **merecovey** user atau password mikrotik **RouterOS** yang lupa menggunakan file .backup
+**Hallo teman teman -** Apa kabar?Kali ini saya akan berbagi sedikit pengalaman saya tentang bagaimana cara **merecovey** user atau password mikrotik **RouterOS** yang lupa dengan memanfaatkan file .backup
 
 
 ## Persyaratan
-### Yang perlu dipersiapkan
+#### Yang perlu dipersiapkan
 - Perangkat mikrotik
 - File Backup
 - Kopi & rokok buat penenang :
 
-### Dependency
-- Python,  terserah python2 atau python3 tapi bukan ular python yaa...
+#### Dependensi
+- Python3,  tapi bukan ular python yaa...
 - Python Pip
 - pycrypto
 
 ## How To
 Pada case ini saya mempraktikanya menggunakan **Linux** , jika teman teman menggunakan **windows** mungkin caranya akan sedikit berbeda 
 
-##### 1. Pertama,Clone repsository atau download dan ekstrak
+###### 1. Pertama,Clone repsository atau download dan ekstrak
 
-``` zsh
+``` bash
     git clone  https://github.com/BigNerd95/RouterOS-Backup-Tools.git && cd RouterOS-Backup-Tools
 ```
 
-##### 2. Kalau sudah di clone / download repositorynya dan Install dependencynya, langsung saja kita jalankan commandnya :
+###### 2. Kalau sudah di clone / download repositorinya dan Install dependencsiya, langsung saja kita jalankan commandnya :
 
 
 {{< admonition note "Note" >}}  
@@ -42,27 +42,41 @@ Pada case ini saya mempraktikanya menggunakan **Linux** , jika teman teman mengg
 
 {{< /admonition >}}
 
-```zsh
-    python ROSbackup.py unpack -i backupanmu.backup -d unpack1
+```bash
+    python3 ROSbackup.py unpack -i backupanmu.backup -d unpack1
 ```
-Berikut contohnya
-{{< image src="gambar1.png"  >}}
 
-##### 3. Kalau sudah , lanjutkan dengan command selanjutnya
-```zsh
-python extract_user.py v-unpack1/user.dat
+{{< image src="gambar1.png" caption= **contohnya**  >}}
+
+###### 3. Kalau sudah , lanjutkan dengan command selanjutnya
+```bash
+python3 extract_user.py unpack1/user.dat
 
 ```
-##### Taraaaa...
+###### Taraaaa...
 Berikut Hasilnya : 
 
-{{< image src="gambar2.png"  caption=  **v.44.6** >}}
+{{< image src="gambar2.png"  caption=  **6.44.6** >}}
 
-{{< image src="gambar3.png"  caption=  **v.45.7** >}}
+{{< image src="gambar3.png"  caption=  **6.45.7** >}}
 
- *note
- tidak semua versi RouterOS berhasil menampilkan user & password dg lengkap
-jika sudah di enter tapi tidak menampilkan user & paswd coba dg cara ini
 
+{{< admonition note "Note" >}}  
+
+ tidak semua versi RouterOS berhasil menampilkan user & password dengan lengkap.
+jika sudah dijalankan tapi tidak menampilkan user & paswd, coba dengan cara ini
+
+{{< /admonition >}}
+```bash
 strings folder-extrakanmu/user.dat
+```
 
+
+Selamat Mencoba dan Semoga berhasil :D
+
+
+Share jika artikel ini bermanfaat untuk teman teman,kalau ada kesalahan mohon dikoreksi. Terima kasih :)
+
+## Referensi
+
+-  https://github.com/BigNerd95/RouterOS-Backup-Tools

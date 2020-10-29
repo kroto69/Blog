@@ -2,7 +2,7 @@ baseURL = "https://rot.my.id/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "KEroot"
+title = "K.H Oirot"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -44,9 +44,9 @@ enableEmoji = true
       # URL of the LOGO
       logo = ""
       # title name
-      name = "R07"
+      name = "Rot"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "<i class='far fas fa-anchor fa-fw'></i> "
+      pre = "<i class='fas fa-om fa-fw'></i> "
       # you can add extra information after the name (HTML format is supported), such as icons
       post = " "
       # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
@@ -144,7 +144,7 @@ enableEmoji = true
     pre = "<i class='fab fa-telegram fa-fw'></i>"
     post = ""
     name = ""
-        url = "https://t.me/ker0t"
+        url = "https://t.me/keroot"
         title = "telegram"
         weight = 4
 
@@ -161,11 +161,11 @@ enableEmoji = true
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = true
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = true
 
  [params.page.comment]
